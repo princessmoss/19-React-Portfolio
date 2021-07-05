@@ -16,13 +16,13 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wwwcache.wralsportsfan.com/asset/football/college_football/2019/11/24/18790350/Charlotte_49ers_logo-DMID1-5kxhgqko6-1280x720.jpg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
+              <h1> Project 1</h1>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -32,13 +32,14 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wwwcache.wralsportsfan.com/asset/football/college_football/2019/11/24/18790350/Charlotte_49ers_logo-DMID1-5kxhgqko6-1280x720.jpg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
+            <h1> Project 1</h1>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
+            
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -48,13 +49,13 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wwwcache.wralsportsfan.com/asset/football/college_football/2019/11/24/18790350/Charlotte_49ers_logo-DMID1-5kxhgqko6-1280x720.jpg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
+            <h1> Project 1</h1>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -62,6 +63,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
+        
 
 
       )
@@ -87,10 +89,9 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Page 1</Tab>
+          <Tab>Page 2</Tab>
+          <Tab>Page 3</Tab>
         </Tabs>
 
 

@@ -1,63 +1,25 @@
-.header-color {
-  background: #1f4037;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-
-.landing-grid {
-  background: #1f4037;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
+.bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
   text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%
-}
-.projects-grid {
-  display: flex;
+  background-color: #C3E09F;
 }
 
-/* Resume Page css */
-.resume-right-col {
-  background: #27221F;
-  color: white;
-  padding: 2em;
-} 
+.bg2{
+  background: #A7D370;  /* fallback for old browsers */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
 
-/* contact page css */
-
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
 }
 
-.banner-text {
-  background-color: rgb(0, 20, 1);
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.banner-text h1 {
-  font-size: px;
-  font-weight: bold;
-  color: white;
-}
-
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1em;
+.bg3{
+  height: 50vh;
+  text-align: center;
+  background-color: #DFEFCB;
 }
 
 .social-links {
@@ -71,94 +33,118 @@ background: linear-gradient(to bottom, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, 
   color: white;
   font-size: 5em;
   padding: 8px;
+} 
+
+.portfolio{
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#F5F9EF;
 }
 
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
+.about-wrapper {
+  padding-top: 100px;
 }
 
-.contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
+.skills-wrapper {
+  padding-top: 100px;
+}
+
+.connect-wrapper {
+  padding-top: 70px;
+}
+
+.line {
+width: 50px;
+border-bottom: 1px solid #FFEFBA;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+.line2 {
+  border-bottom: 1px solid #F5F9EF;
+  }
+
+.me-image img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.socials {
+  padding-top:50px;
+}
+
+.socials span {
+  font-size: 150%;
+  color: #A7D370;
+}
+
+.socials p{
   color: black;
-  margin-bottom: 20px;
 }
 
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
-
-.contact-grid hr {
-  border-top: 5px dotted black;
+.social-links {
+  display: flex;
+  justify-content: space-between;
   width: 50%;
   margin: auto;
 }
 
-.contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
+.social-links i {
+  color: #A7D370;
+  font-size: 5em;
+  padding: 1px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* .App {
-  text-align: center;
+div .hero-text{
+  position: fixed;
+  top: 45%;
+  padding-left: 50px;
+  z-index: 1;
+  width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-wrapper {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  height: 50px;
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav {
+  float: right;
+}
+
+.nav-link {
+  color:black;
+}
+
+.nav-link:hover {
+  color:black;
+}
+
+.skills-list h4 {
+  color:black;
+}
+
+@media only screen and (max-width: 800px) {
+  div .hero-text {
+    position: unset;
+    margin: auto 0;
+    padding: 50px;
+    width: 50%;
   }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 575.98px) { 
+  .bg, .bg3 {
+    height: 100vh;
   }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+
+ }

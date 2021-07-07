@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faMobile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
@@ -16,6 +17,10 @@ const Contact = () => (
           <div className="col">
             <span><FontAwesomeIcon icon={faEnvelope} /></span>
             <a href={`mailto:${user.name}`}><p>{user.email}</p></a>
+          </div>
+          <div className="col">
+            <span><FontAwesomeIcon icon={faMobile} /></span>
+            <a href={`tel:${user.mobile}`}><p>{user.mobile}</p></a>
           </div>
           <div className="col">
             <span><FontAwesomeIcon icon={faGithub} /></span>

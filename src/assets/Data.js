@@ -10,6 +10,7 @@ const user = {
   profilePic: mePic,
   altTag: "contact picture",
   email: "princessmosse@gmail.com",
+  mobile: "000-000-0000",
   github: "princessmoss",
   linkedin: "https://www.linkedin.com/in/princess-moss-8b290a140/",
   p1: "Hi, I'm Princess – I'm a Graphic Designer and Full Stack Developer",

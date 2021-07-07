@@ -12,7 +12,7 @@ This is my updated portfolio using React.js which features some of my github pro
 * [Links](#links)
 
 ## Features
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+* Links to your GitHub profile & LinkedIn page
 
 * A link to a PDF of your resume with updated projects
 

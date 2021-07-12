@@ -1,7 +1,7 @@
 .Navbar {
-    background: #EDE574;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: fixed;
     padding: 0 20px;
     height: 60px;
@@ -12,10 +12,16 @@
     z-index: 999;
 
 }
+.Navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
 
 .Navbar a:hover {
     opacity: 0.3;
-    background: white;
+    background: #abd904;
     transform: scale(2);     /* Equal to scaleX(2) scaleY(2) */
     transition-duration: 0.5s;
    }
@@ -31,10 +37,5 @@
     margin: 20px; 
 }
 
-.Navbar a {
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
 
-}
 

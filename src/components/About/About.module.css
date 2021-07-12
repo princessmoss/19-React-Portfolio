@@ -1,0 +1,48 @@
+.myInfo {
+    display:flex;
+    height: 50px;
+    padding-top: 80px;
+   background-color: #E1F5C4;
+    background-size: cover;
+    color: black;
+}
+
+.myInfo .container {
+    display:flex;
+}
+.myInfo .Container h2  {
+    position: right;
+    top: 15%;
+    left: 500px;
+    padding: 10px;
+    font-size: 75px;
+    
+}
+
+.myInfo .container .text h2 {
+    font-size: 40px;
+    position: center;
+}
+
+.myInfo h2 {
+    color:black;
+}
+
+.myInfo .container .text{
+    width: 40%;
+    margin-left: 3%;
+    position: right;
+
+}
+.myInfo {
+    background-size: cover;
+    height: 50vh;
+    padding-bottom: 8%;
+    color:black;
+}
+
+.myInfo .container .photo {
+    display:flex;
+    width: 45%;
+    justify-content: center;
+}

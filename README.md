@@ -33,7 +33,7 @@ This is my updated portfolio using React.js which features some of my github pro
 ## Links
 [Repository](https://github.com/princessmoss/19-React-Portfolio) <br>
 
-[Heroku Deployment]()
+[Heroku Deployment](https://floating-waters-81946.herokuapp.com/)
 
 
 

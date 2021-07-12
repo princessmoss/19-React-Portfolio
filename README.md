@@ -28,12 +28,12 @@ This is my updated portfolio using React.js which features some of my github pro
   * GIF or screenshot of the deployed application
 
 ### Demo     
-![Demo GIF of the Application]() 
+![Demo GIF of the Application](https://user-images.githubusercontent.com/77419537/125319026-65acd080-e308-11eb-943f-cc3ce2b9791e.gif) 
 
 ## Links
 [Repository](https://github.com/princessmoss/19-React-Portfolio) <br>
 
-[Heroku Deployment](https://user-images.githubusercontent.com/77419537/125319026-65acd080-e308-11eb-943f-cc3ce2b9791e.gif)
+[Heroku Deployment]()
 
 
 
